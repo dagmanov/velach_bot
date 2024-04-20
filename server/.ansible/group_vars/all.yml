@@ -1,9 +1,1 @@
-DB_NAME: default_database
-DB_USER: velach_bot
-DB_PASSWORD: v31acH_b0t
-DROPBOX_TOKEN: new_dropbox_token
-APP_DIR: diablos
-OS_USER: diablos
-OS_PASSWORD: v31acH_b0t
-OS_GROUP: diablos
-DIST_BINARY_DIR: new_dist_binary_dir
+
