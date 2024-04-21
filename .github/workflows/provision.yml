@@ -4,8 +4,8 @@ on:
 jobs:
   server_provision:
     name: Server Provision
-    # runs-on: self-hosted
-    runs-on: ubuntu-22.04
+    runs-on: self-hosted
+    # runs-on: ubuntu-22.04
     steps:
       - name: Fetch Repo
         uses: actions/checkout@v2
