@@ -25,7 +25,7 @@ export function getDeletedKeyboard(bikecheck: Bikecheck): InlineKeyboardMarkup {
       ],
       [
         getCommandButton(
-          'Восстановить',
+          'Przywrócić',
           CALLBACK_QUERY_COMMANDS.RESTORE_BIKECHECK,
           {
             bikecheckId: bikecheck.id,
