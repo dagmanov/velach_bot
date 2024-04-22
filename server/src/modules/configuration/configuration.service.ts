@@ -17,7 +17,7 @@ export class ConfigurationService {
      * DB connection config setup
      */
     this.poolConfig = {
-      host: this.getStringValue('VELACH_BOT_DB_HOST', '127.0.0.1'),
+      host: this.getStringValue('VELACH_BOT_DB_HOST', 'db'),
       port: this.getNumberValue('VELACH_BOT_DB_PORT', 5432),
       database: this.getStringValue('VELACH_BOT_DB_DATABASE', 'velach_bot'),
       user: this.getStringValue('VELACH_BOT_DB_USER', 'velach_bot'),
